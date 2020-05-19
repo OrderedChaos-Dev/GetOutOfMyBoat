@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[30,)"
+issueTrackerURL="https://github.com/OrderedChaos-Dev/GetOutOfMyBoat/issues"
+
+[[mods]]
+	modId="getoutofmyboat"
+	version="${version}"
+	displayName="Get Out Of My Boat"
+	displayURL="https://www.orderedchaos.dev/"
+	logoFile="getoutofmyboat.png"
+	authors="ordered_chaos_dev"
+	description='''
+
+	'''
+[[dependencies.getoutofmyboat]]
+    modId="forge"
+    mandatory=true
+    versionRange="[30,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.getoutofmyboat]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
